@@ -1,0 +1,39 @@
+/* CSS Document */
+#page {
+	width:480px;
+<!--	height:762-44-22px;-->
+}
+#content{
+	height:708px;
+}
+.off {
+	background!important:none;
+}
+.pic {
+	width:80px;
+	height:80px;
+	background-repeat: no-repeat;
+}
+.show {
+	background-color:transparent;
+	font-size:0;
+	height:100%;
+	text-align:center;
+	width:100%;
+}
+.selected {
+	box-shadow:0 0 3px red,0 0 10px red,0 0 10px red inset;
+	position:relative;
+}
+.left{
+	border-left:3px solid red;
+	background-color:transparent;
+	z-index:2;
+	position:absolute;
+}
+.top{
+	border-top:3px solid red;
+	background-color:transparent;
+	z-index:2;
+	position:absolute;
+}
